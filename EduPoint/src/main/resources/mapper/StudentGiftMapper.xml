@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.school.edupoint.mapper.StudentGiftMapper">
+
+    <select id="getPage" resultType="com.school.edupoint.model.StudentGift">
+        SELECT * FROM t_student_gift
+        <where>
+            <if test="ew.sqlSegment != null and ew.sqlSegment != ''">
+                ${ew.sqlSegment}
+            </if>
+        </where>
+    </select>
+
+    <select id="getById" resultType="com.school.edupoint.model.StudentGift">
+        SELECT * FROM t_student_gift WHERE id = #{id}
+    </select>
+
+    <insert id="saveOrUpdate" parameterType="com.school.edupoint.model.StudentGift" useGeneratedKeys="true" keyProperty="id">
+        <if test="id == null">
+            INSERT INTO t_student_gift (
+            student_id, student_name, gift_id, gift_name, image_url, point,
+            status, receive_name, receive_phone, address,
+            create_by, create_time, update_by, update_time
+            ) VALUES (
+            #{studentId}, #{studentName}, #{giftId}, #{giftName}, #{imageUrl}, #{point},
+            #{status}, #{receiveName}, #{receivePhone}, #{address},
+            #{createBy}, #{createTime}, #{updateBy}, #{updateTime}
+            )
+        </if>
+        <if test="id != null">
+            UPDATE t_student_gift
+            <set>
+                <if test="studentId != null">student_id = #{studentId},</if>
+                <if test="studentName != null">student_name = #{studentName},</if>
+                <if test="giftId != null">gift_id = #{giftId},</if>
+                <if test="giftName != null">gift_name = #{giftName},</if>
+                <if test="imageUrl != null">image_url = #{imageUrl},</if>
+                <if test="point != null">point = #{point},</if>
+                <if test="status != null">status = #{status},</if>
+                <if test="receiveName != null">receive_name = #{receiveName},</if>
+                <if test="receivePhone != null">receive_phone = #{receivePhone},</if>
+                <if test="address != null">address = #{address},</if>
+                <if test="updateBy != null">update_by = #{updateBy},</if>
+                <if test="updateTime != null">update_time = #{updateTime}</if>
+            </set>
+            WHERE id = #{id}
+        </if>
+    </insert>
+
+    <delete id="removeById" parameterType="java.lang.Integer">
+        DELETE FROM t_student_gift WHERE id = #{id}
+    </delete>
+
+    <update id="updateStatus">
+        UPDATE t_student_gift
+        SET status = #{status}, update_by = #{updateBy}, update_time = NOW()
+        WHERE id = #{id}
+    </update>
+</mapper>
