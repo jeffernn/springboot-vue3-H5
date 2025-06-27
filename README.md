@@ -56,13 +56,13 @@
 - MySQL 8.0+
 - Redis
 
-### 1. 克隆项目
+### 克隆项目
 ```bash
 git clone https://github.com/your-username/campus-point-system.git
 cd campus-point-system
 ```
 
-### 2. 数据库配置
+### 数据库配置
 ```sql
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -203,7 +203,7 @@ INSERT INTO `t_user` VALUES (1,'admin','123456','2025-06-10 10:58:27',NULL,'2025
 
 ```
 
-### 3. 启动后端服务
+### 启动后端服务
 ```bash
 cd EduPoint
 # 配置数据库连接信息
@@ -212,7 +212,7 @@ cd EduPoint
 mvn spring-boot:run
 ```
 
-### 4. 启动管理端
+### 启动管理端
 # Change directory
 cd vue-admin
 
@@ -225,34 +225,34 @@ pnpm install
 # Start the project
 pnpm run dev
 
-### 5. 启动H5端
+### 启动H5端
 # 在HBuilderX中打开
 npm install
 
 ## 📁 项目结构
-spring-boot-vue3-H5/
-├── EduPoint/ # Spring Boot 后端服务
-│ ├── src/
-│ │ ├── main/
-│ │ │ ├── java/
-│ │ │ └── resources/
-│ │ └── test/
-│ ├── pom.xml
-│ └── README.md
-├── admin-ui/ # Vue3 管理端
-│ ├── src/
-│ │ ├── components/
-│ │ ├── views/
-│ │ ├── router/
-│ │ └── store/
-│ ├── package.json
-│ └── vite.config.ts
-├── H5/ # UniApp 移动端
-│ ├── pages/
-│ ├── static/
-│ ├── uni_modules/
-│ └── package.json
-└── README.md
+-spring-boot-vue3-H5/
+-├── EduPoint/ # Spring Boot 后端服务
+-│ ├── src/
+-│ │ ├── main/
+-│ │ │ ├── java/
+-│ │ │ └── resources/
+-│ │ └── test/
+-│ ├── pom.xml
+-│ └── README.md
+-├── admin-ui/ # Vue3 管理端
+-│ ├── src/
+-│ │ ├── components/
+-│ │ ├── views/
+-│ │ ├── router/
+-│ │ └── store/
+-│ ├── package.json
+-│ └── vite.config.ts
+-├── H5/ # UniApp 移动端
+-│ ├── pages/
+-│ ├── static/
+-│ ├── uni_modules/
+-│ └── package.json
+-└── README.md
 
 ##  🎯数据库设计
 
