@@ -225,15 +225,9 @@ pnpm install
 # Start the project
 pnpm run dev
 
-npm run build
-```
-
-### 5. 启动移动端
-```bash
-cd H5
-# 使用HBuilderX打开项目
-# 运行到H5
-```
+### 5. 启动H5端
+# 在HBuilderX中打开
+npm install
 
 ## 📁 项目结构
 spring-boot-vue3-H5/
@@ -259,8 +253,6 @@ spring-boot-vue3-H5/
 │ ├── uni_modules/
 │ └── package.json
 └── README.md
-Apply
-如果这个项目对您有帮助，请给我们一个星标！
 
 ##  🎯数据库设计
 
