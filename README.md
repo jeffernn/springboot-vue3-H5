@@ -246,8 +246,8 @@ mvn spring-boot:run
 - pnpm run dev
 
 ### 5.启动H5端
-# 在HBuilderX中打开
-npm install
+## 在HBuilderX中打开
+- npm install
 
 ##  🎯数据库设计
 
