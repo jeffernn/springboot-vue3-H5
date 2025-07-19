@@ -81,13 +81,8 @@
 - MySQL 8.0+
 - Redis
 
-### 1.克隆项目
-```bash
-git clone https://github.com/your-username/campus-point-system.git
-cd campus-point-system
-```
 
-### 2.数据库配置
+### 1.数据库配置
 ```sql
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -228,7 +223,7 @@ INSERT INTO `t_user` VALUES (1,'admin','123456','2025-06-10 10:58:27',NULL,'2025
 
 ```
 
-### 3.启动后端服务
+### 2.启动后端服务
 ```bash
 cd EduPoint
 # 配置数据库连接信息
@@ -237,17 +232,17 @@ cd EduPoint
 mvn spring-boot:run
 ```
 
-### 4.启动管理端
-# Change directory
+### 3.启动管理端
+- Change directory
 cd vue-admin
 
-# Install pnpm
+- Install pnpm
 npm install pnpm -g
 
-# Install dependencies
+- Install dependencies
 pnpm install
 
-# Start the project
+- Start the project
 pnpm run dev
 
 ### 5.启动H5端
