@@ -292,6 +292,7 @@ mvn spring-boot:run
 
 - 项目维护者：Jeffern
 - 邮箱：Jeffern1030@gmail.com
+- 切勿用于商业用途，会追究版权
 
 ---
 
