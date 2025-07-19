@@ -1,7 +1,32 @@
-# 校园智能打卡与活动积分平台
+<img width="323" height="700" alt="image" src="https://github.com/user-attachments/assets/ebfe2ce2-c32b-4822-aafc-7fb07dbb25e1" /># 校园智能打卡与活动积分平台
 ## 📖 项目简介
 
 校园智能打卡与活动积分平台是一个专为学校、学院或班级设计的智能化活动打卡与积分管理系统。通过智能打卡、自动积分、数据统计、排行榜等功能，提升学生参与活动的积极性，实现活动数字化、透明化管理。
+<details>
+  <summary>点击查看项目截图</summary>
+  <img width="290" height="202" alt="image" src="https://github.com/user-attachments/assets/6795ca62-42b4-4d2b-8258-ad77bac44739" />
+  <img width="135" height="293" alt="image" src="https://github.com/user-attachments/assets/01613a78-dede-4a5b-b2e7-f6a7b4a5d961" />
+  <img width="262" height="568" alt="image" src="https://github.com/user-attachments/assets/3f47ed7f-cf16-486f-bffb-288a27ea8422" />
+  <img width="323" height="700" alt="image" src="https://github.com/user-attachments/assets/17ec6fb3-ab23-48da-a922-7650ba059845" />
+  <img width="323" height="700" alt="image" src="https://github.com/user-attachments/assets/4efdda58-c625-490e-8ec6-11760e4ee41a" />
+  <img width="197" height="428" alt="image" src="https://github.com/user-attachments/assets/e07e1926-9132-49a3-a44c-5b59c7712146" />
+  <img width="198" height="428" alt="image" src="https://github.com/user-attachments/assets/b5340fd3-6552-4d2a-9b94-184a136d1e5c" />
+  <img width="197" height="428" alt="image" src="https://github.com/user-attachments/assets/608f6085-68ec-495a-8783-317a9ac19985" />
+  <img width="198" height="428" alt="image" src="https://github.com/user-attachments/assets/6824a5c6-ffab-4f64-b492-d01e2005151b" />
+  <img width="197" height="428" alt="image" src="https://github.com/user-attachments/assets/1c779f15-5e02-4280-8813-ce84636b841d" />
+  <img width="370" height="175" alt="image" src="https://github.com/user-attachments/assets/497c936e-898d-4266-9f40-14a6348ec356" />
+  <img width="364" height="175" alt="image" src="https://github.com/user-attachments/assets/e12b56b3-96d1-4ade-a1e7-fed570121218" />
+  <img width="354" height="201" alt="image" src="https://github.com/user-attachments/assets/3a9fed7a-db87-438f-a903-402ee206b897" />
+  <img width="366" height="208" alt="image" src="https://github.com/user-attachments/assets/3c9ca381-082c-4bb7-9e34-3f15cc95246c" />
+  <img width="366" height="208" alt="image" src="https://github.com/user-attachments/assets/8cc966fa-f06c-4836-96c1-550790d0ce84" />
+  <img width="394" height="224" alt="image" src="https://github.com/user-attachments/assets/9d9e91bc-6b10-45c5-91b4-a99843c23ada" />
+  <img width="365" height="207" alt="image" src="https://github.com/user-attachments/assets/e225110e-2972-42c8-8155-46d017baba2c" />
+  <img width="388" height="220" alt="image" src="https://github.com/user-attachments/assets/a1901d63-f59a-4e08-a09c-bb43b474ee87" />
+  <img width="380" height="216" alt="image" src="https://github.com/user-attachments/assets/91af78e9-9843-43c7-a425-7724b834402f" />
+  <img width="390" height="221" alt="image" src="https://github.com/user-attachments/assets/c5be0846-4095-4b3f-99b0-e4eab6829d2c" />
+  <img width="413" height="234" alt="image" src="https://github.com/user-attachments/assets/06d60321-2de2-46a3-81f4-6741bd5ff4a6" />
+
+</details>
 
 ## ✨ 主要功能
 
