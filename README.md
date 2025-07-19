@@ -233,17 +233,17 @@ mvn spring-boot:run
 ```
 
 ### 3.启动管理端
-- Change directory
-cd vue-admin
+## Change directory
+- cd vue-admin
 
-- Install pnpm
-npm install pnpm -g
+## Install pnpm
+- npm install pnpm -g
 
-- Install dependencies
-pnpm install
+## Install dependencies
+- pnpm install
 
-- Start the project
-pnpm run dev
+## Start the project
+- pnpm run dev
 
 ### 5.启动H5端
 # 在HBuilderX中打开
